@@ -111,9 +111,14 @@ section a {
 	text-align: center;
 	justify-self: center;
 	padding: 20px 0;
+	margin: 0 auto;
 }
 .box-text .btn {
 	margin-top: 20px;
+}
+
+.box-f .box-text {
+	max-width: 600px;
 }
 
 /* Grid styles*/
@@ -145,7 +150,8 @@ section a {
 	border-color: #000;
 	color: #000;
 }
-.btn-dark-outline:hover {
+.btn-dark-outline:hover,
+.btn-light-outline:hover {
 	background-color: rgba(0, 0, 0, 0.06);
 }
 
@@ -205,6 +211,10 @@ section a {
 .text-sm {
 	font-size: 19px;
 	margin-bottom: 20px;
+}
+
+.text-dark {
+	color: #000;
 }
 /* text styling ends */
 
