@@ -302,13 +302,28 @@ section a {
 	transform: rotate(-45deg) translateY(6px) translateX(-6px);
 }
 
-/* Mobile Menu */
+/* Mobile View Menu */
 .mobile-menu {
+	position: fixed;
+	top: 80px;
+	right: 0;
+	background-color: #fff;
+	color: #000;
+	width: 90%;
+	height: 100%;
+	padding: 25px;
+	border-top: 1px solid #000;
+}
+
+.mobile-menu img {
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
 }
 
 /* Media quaries */
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
 	.hamburger {
 		display: block;
 	}
